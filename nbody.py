@@ -23,7 +23,7 @@ class ThreeBody:
         self.m1 = m1
         self.m2 = m2
         self.m3 = m3
-        self.dr1 = np.asarray(dr1 if dr1 is not None else [1e-3, 0])
+        self.dr1 = np.asarray(dr1 if dr1 is not None else [0, 0])
         self.dr2 = np.asarray(dr2 if dr2 is not None else [0, 0])
         self.dr3 = np.asarray(dr3 if dr3 is not None else [0, 0])
         self.path1x = []
